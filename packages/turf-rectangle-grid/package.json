@@ -1,0 +1,61 @@
+{
+  "name": "@turf/rectangle-grid",
+  "version": "5.1.5",
+  "description": "turf rectangle-grid module",
+  "main": "main.js",
+  "module": "main.es.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "main.js",
+    "main.es.js"
+  ],
+  "scripts": {
+    "pretest": "rollup -c ../../rollup.config.js",
+    "test": "node -r @std/esm test.js",
+    "posttest": "node -r @std/esm ../../scripts/validate-es5-dependencies.js",
+    "bench": "node -r @std/esm bench.js",
+    "docs": "node ../../scripts/generate-readmes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Turfjs/turf.git"
+  },
+  "keywords": [
+    "turf",
+    "grid",
+    "cartesian",
+    "rectangle"
+  ],
+  "author": "Turf Authors",
+  "contributors": [
+    "Adam Michaleski @adam3039"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Turfjs/turf/issues"
+  },
+  "homepage": "https://github.com/Turfjs/turf",
+  "devDependencies": {
+    "@std/esm": "*",
+    "@turf/bbox-polygon": "^5.1.5",
+    "@turf/truncate": "^5.1.5",
+    "benchmark": "*",
+    "rollup": "*",
+    "tape": "*",
+    "write-json-file": "*"
+  },
+  "dependencies": {
+    "@turf/boolean-contains": "^5.1.5",
+    "@turf/boolean-overlap": "^5.1.5",
+    "@turf/distance": "^5.1.5",
+    "@turf/helpers": "6.x",
+    "@turf/intersect": "^5.1.5",
+    "@turf/invariant": "^6.x"
+  },
+  "@std/esm": {
+    "esm": "js",
+    "cjs": true
+  }
+}

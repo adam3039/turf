@@ -170,6 +170,7 @@
     "@turf/truncate": "5.1.x",
     "@turf/union": "5.1.x",
     "@turf/unkink-polygon": "5.1.x",
-    "@turf/voronoi": "5.1.x"
+    "@turf/voronoi": "5.1.x",
+    "@turf/rectangle-grid": "file:../turf-rectangle-grid"
   }
 }
