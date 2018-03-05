@@ -115,6 +115,7 @@ export {default as dissolve} from '@turf/dissolve';
 export {default as hexGrid} from '@turf/hex-grid';
 export {default as mask} from '@turf/mask';
 export {default as squareGrid} from '@turf/square-grid';
+export {default as rectangleGrid} from '@turf/rectangle-grid';
 export {default as triangleGrid} from '@turf/triangle-grid';
 export {default as interpolate} from '@turf/interpolate';
 
